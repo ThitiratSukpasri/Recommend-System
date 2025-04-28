@@ -11,13 +11,12 @@ This project provides a simple Flask API for recommending symptoms based on a us
 
 ## Project Structure
 
+The project has the following structure:
 
-├── app.py          # Main Flask application file
-├── data/           # Directory containing the symptom data
-│   └── symptom_data.csv  # CSV file with symptom data
-├── requirements.txt  # List of Python dependencies
-└── README.md       # Project documentation (this file)
-
+-   `app.py`: Main Flask application file.
+-   `data/symptom_data.csv`: CSV file containing symptom data.
+-   `requirements.txt`: List of Python dependencies.
+-   `README.md`: Project documentation.
 
 ## Getting Started
 
