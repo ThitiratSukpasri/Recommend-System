@@ -13,9 +13,10 @@ project_dir = os.path.abspath(os.path.join(os.getcwd(), '..'))
 
 # Define the relative path to the CSV file
 csv_file_path = os.path.join(project_dir, 'data', 'symptom_data.csv')
-# Load the CSV file
 
+# Load the CSV file
 df = pd.read_csv(csv_file_path)
+
 # Preprocess symptoms
 df['symptom_list'] = df['search_term'].apply(lambda x: [s.strip() for s in str(x).split(',') if s.strip()])
 
