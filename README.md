@@ -45,3 +45,4 @@ This project provides a simple Flask API for recommending symptoms based on a us
     ```bash
     python app.py
     ```
+No CSV provided    
