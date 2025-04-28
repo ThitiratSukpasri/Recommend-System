@@ -7,7 +7,6 @@ This project provides a simple Flask API for recommending symptoms based on a us
 -   Input: List of symptoms
 -   Output: List of recommended related symptoms
 -   KNN-based recommendation using patient-symptom matrix
--   Supports Thai language and multi-symptom input
 
 ## Project Structure
 
