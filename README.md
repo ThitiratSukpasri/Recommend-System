@@ -1,4 +1,4 @@
-# Symptom Recommendation API
+# Symptom Recommendation
 
 This project provides a simple Flask API for recommending symptoms based on a user's input using K-Nearest Neighbors (KNN). It is designed to assist in medical data exploration by finding related symptoms from an existing dataset.
 
