@@ -55,11 +55,6 @@ def recommend_symptoms_knn(input_symptoms, top_k=5):
 
 # API route
 
-
-#@app.route('/test', methods=['GET'])
-#def test():
-    #return jsonify({'message': 'Server is working!'})
-
 @app.route('/app', methods=['POST'])
 def recommend():
     data = request.get_json()
